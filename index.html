@@ -52,7 +52,7 @@ copy.onclick = async () => {
 	updateOutput();
 	try {
 		await navigator.clipboard.writeText(output.value);
-		alert("Successfully copied");
+		alert("It is now in your copy/paste clipboard!");
 	} catch (e) {
 		alert(e);
 	}
